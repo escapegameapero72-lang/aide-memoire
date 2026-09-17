@@ -1365,8 +1365,9 @@ document.addEventListener("visibilitychange", () => {
 
 /* ---------- Authentification Google (directe, sans Claude) ---------- */
 // ⚠️ Remplace la valeur ci-dessous par TON identifiant client OAuth Google (voir le guide fourni).
-const GOOGLE_CLIENT_ID = "730822907933-se0btbrqp5uqf9ha6igpb9ai4p99faef"
+const GOOGLE_CLIENT_ID = "730822907933-se0btbrqp5uqf9ha6igpb9ai4p99faef.apps.googleusercontent.com";
 const GOOGLE_SCOPE = "https://www.googleapis.com/auth/calendar.events";
+
 const TOKEN_KEY = "am-google-token";
 
 function saveToken(token, expiresInSec){
